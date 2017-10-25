@@ -1,8 +1,13 @@
 <?php
 //--include1.php
 $b="<br>";
-echo "การดึงไฟล์อื่นมาร่วม PHP <hr>";
-include ("test01.php");
+include("header.php");
 echo $b;
-include ("variable.php");
+include("variable.php");
+
+
+
+
+
+
 ?>

@@ -1,20 +1,23 @@
 <?php
-//--login.php
-$use= $_POST[ 'username'];
-$password= $_POST[ 'password'];
-if ($use=="admin") 
+
+@$name = $_POST['username'];
+@$pass = $_POST['pass1'];
+
+if($name=="admin"AND$pass=="1234")
 {
-	echo "ยินดีต้อนรับคุณ" $use ".คุณคือผู้ดูแลระบบ";
-	echo "<br><a href='admin/index.php'>ลิ้งค์ไปหน้า Backend</a>";
+	echo "ยินดีต้อนรับ คุณ <font color='red'> โกวิท เอกสุภาพันธ์ </font> ผู้ดูแลระบบ Admin <br>";
+	echo "<a href='admin/index.php'>ไปที่หน้า Backend </a>";
+	
 }
-else if ($use=="ohtea") {
-	echo "ยินดีต้อนรับคุณ" $use ".คุณคือสมาชิกชมรม";
-	echo "<br><a href='home/index.php'>ลิ้งค์ไปหน้า Frontend</a>";
+else if($name=="taaok"AND$pass=="1234")
+{
+	echo "ยินดีต้อนรับ คุณ <font color='red'> $name </font> คุณคือสมาชิกชมรม <br>";
+	echo "<a href='home/index.php'>ไปที่หน้า Frontend </a>";
+	
+}else
+{
+	echo"ยินดีต้อนรับ คุณ$name คือผู้ใช้งาน<br>";
+	echo "<a href='../'>ไปที่หน้า User (myproject) </a>";
+	
 }
-else {
-	echo "ยินดีต้อนรับคุณ" $use ".คุณคือผู้ใช้งานทั่วไป";
-	echo "<br><a href='../'>ลิ้งค์ไปหน้า User (myproject) </a>";
-}
-
-
 ?>

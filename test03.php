@@ -1,5 +1,6 @@
 <?php
 //--test03.php
-echo"Preecha Treerapee<hr>";
-echo"Business Computer"
+echo "Kowin Aeksupapan<hr>";
+echo "Business Computer";
+
 ?>

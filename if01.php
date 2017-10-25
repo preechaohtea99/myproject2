@@ -1,8 +1,16 @@
 <?php
 //--if01.php
-$name="Preecha";
-if($name=="Preecha")
-	{
-	echo"คุณป้อนชื่อคุณถูกต้อง";
-	}
+echo $_POST["id"];
+
+$name="Kowin";
+if($name=="Kowin")
+{
+echo"คุณป้อนชื่อถูกต้อง";
+}
+
+else
+{
+echo"ไม่มีชื่อที่คุณ"
+}
+
 ?>

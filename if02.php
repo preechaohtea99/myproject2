@@ -1,11 +1,15 @@
 <?php
 //--if02.php
-$name="Preecha";
-if($name=="OHTEA")
-	{
-	echo"สวัสดีคุณ $name คุณคือตัวจริง";
-	}else
-	{
-	echo"สวัสดีคุณ $name คุณคือตัวปลอม";
-	}
+
+$name="Kowin";
+if($name=="Kowin")
+{
+echo"คุณป้อนชื่อถูกต้อง";
+}
+
+else
+{
+echo"ไม่มีชื่อที่คุณ"
+}
+
 ?>

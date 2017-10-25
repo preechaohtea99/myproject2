@@ -1,13 +1,16 @@
 <?php
 //--variable2.php
-$e= "<br>";
-$num1 = 200;
-$num2 = 300;
-$a = 2.5;
-$b = 2.5;
-$sum = $num1+$num2;
-$c = $a+$b;
+$e="<br>";
+$n1=200;
+$n2=300;
+$a=2.5;
+$b=2.5;
 
-echo "$num1+$num2=".$sum.$e;
-echo "$a+$b=".$c;
+$c=$a+$b;
+
+$sum= $n1+$n2 ;
+
+echo "$n1 +  $n2 = " .$sum.$e;
+echo "$a + $b = ".$c;
+
 ?>
